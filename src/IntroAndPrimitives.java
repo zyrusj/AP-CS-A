@@ -7,8 +7,8 @@ public class IntroAndPrimitives {
         It can span as long as you'd like
          */
 
-        String firstString = "My string";
-        String first_string = "My string";
+        String firstString = "My first string";
+        String second_string = "My second string";
         System.out.println(firstString);
         System.out.println("String");
 
