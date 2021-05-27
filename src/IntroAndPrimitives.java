@@ -46,7 +46,7 @@ Compile time error: If an error is found in the code from doing something the in
 understand (like naming an identifier with the first character being a number) it will stop compiling and send you an error
 
 Logical error: An error where the code compiles correctly but doesn't give you the desired output. For example, a tip
-calculator that tells you 20% tip on $100 is $15. Your program didn't ran but it didn't give you the right output
+calculator that tells you 20% tip on $100 is $15. Your program ran but it didn't give you the right output
 
 Run time error: An error that isn't caught by the compiler that occurs during the execution of the program. For example,
 trying to get the third item in a list of two items.
