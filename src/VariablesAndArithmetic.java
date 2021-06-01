@@ -1,8 +1,9 @@
 public class VariablesAndArithmetic {
     public static void main(String[] args) {
 //        type identifier = data
-        int favoriteNumber = 3;
+        int favoriteNumber = 3, secondFavoriteNumber = 6;
         favoriteNumber = 5;
+        int favoriteSum = favoriteNumber + secondFavoriteNumber;
         System.out.println("My favorite number is " + favoriteNumber);
         System.out.println(1+1);
         System.out.println(1+1+"1");
@@ -11,11 +12,7 @@ public class VariablesAndArithmetic {
         double halfMyFavoriteNumber = 2.5 ;
         boolean iLoveCS = true;
         char favoriteLetter = 'Z';
-       //Arithmetic operators: +, -, *, /, %
-
-        int side1 = 3, side2 = 4;
-        int length = side1 + side2;
-        System.out.println(length);
+       //Arithmetic operators: +, -, *, /, % 
 
         System.out.println(3 - 4/5);
         System.out.println(3 - (double)(4)/(5));
